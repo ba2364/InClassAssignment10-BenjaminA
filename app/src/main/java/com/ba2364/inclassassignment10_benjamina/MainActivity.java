@@ -40,11 +40,6 @@ public class MainActivity extends AppCompatActivity {
         teams.add(new Team("New York Mets", "Established 1962", R.drawable.mets));
         teams.add(new Team("New York Rangers", "Established 1926", R.drawable.rangers));
         teams.add(new Team("New York Knicks", "Established 1946", R.drawable.knicks));
-        teams.add(new Team("New York Yankees", "Established 1903", R.drawable.yankees));
-        teams.add(new Team("New York Islanders", "Established 1972", R.drawable.isles));
-        teams.add(new Team("New Jersey Devils", "Established 1974", R.drawable.devils));
-        teams.add(new Team("Brooklyn Nets", "Established 1967", R.drawable.nets));
-        teams.add(new Team("New York Jets", "Established 1960", R.drawable.jets));
     }
 
     private Team getRandomTeam() {
